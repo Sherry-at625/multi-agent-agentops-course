@@ -1,0 +1,11 @@
+{
+  "raw_rows": 3654,
+  "missing_date_rows": 72,
+  "unparseable_date_rows": 0,
+  "duplicate_rows_removed": 54,
+  "invalid_quantity_rows": 35,
+  "negative_profit_rows": 105,
+  "missing_segment_rows_filled": 163,
+  "cleaned_rows": 3388,
+  "drop_ratio": 0.0728
+}
