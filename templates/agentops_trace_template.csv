@@ -1,0 +1,2 @@
+﻿trace_id,run_id,timestamp,agent_role,agent_name,platform,task_step,input_summary,tool_called,output_artifact,output_summary,status,duration_sec,prompt_tokens,completion_tokens,total_tokens,estimated_cost_cny,retry_count,error_message,qa_score,reviewer_notes
+T001,R001,2026-11-01 14:20:05,Data Engineer,DE-01,Trae SOLO,读取 raw CSV 并完成清洗,data/retail_sales_raw.csv；全局规则 00,pandas.read_csv / to_datetime / drop_duplicates,data/retail_sales_cleaned.csv; outputs/cleaning_report.json,3388 条有效记录；去重54、负利润剔除105（示例数据，实际以运行记录为准）,success,142,6200,1840,8040,0.00,0,,5,日期与数量异常规则全部覆盖
