@@ -1,0 +1,2 @@
+﻿run_id,date,group_name,platform_combo,total_agents,total_steps,success_steps,failed_steps,total_duration_sec,total_tokens,estimated_cost_cny,human_interventions,qa_overall_score,main_failure_point,replay_findings,notes
+R001,2026-11-01,第1组,Trae + WorkBuddy,5,12,11,1,618,42300,0.00,2,4.6,分析 Agent 首次未核对清洗后行数,回放发现交接摘要未写入有效订单数，已在全局规则中补充交接字段,示例行，正式运行时删除并按实际填写
